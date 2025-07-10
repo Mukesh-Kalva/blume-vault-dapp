@@ -36,3 +36,18 @@ git clone https://github.com/YOUR_USERNAME/blume-frontend.git
 cd blume-frontend
 npm install
 npm start
+
+Final Project Structure
+blume-frontend/
+├── frontend/                  ← React app
+│   ├── package.json
+│   ├── public/
+│   ├── src/
+├── contracts/                ← Solidity files
+│   ├── BLXToken.sol
+│   ├── Vault.sol
+├── README.md                 ← Project overview
+├── deployment-details.md     ← Contract + Remix notes
+├── security-report.md        ← Manual audit summary
+├── design-doc.md             ← Justification + architecture
+
